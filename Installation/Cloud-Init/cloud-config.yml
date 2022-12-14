@@ -14,7 +14,7 @@ runcmd:
   - pw=$(openssl rand -base64 18); mysqladmin -u root -h localhost password "$pw"; echo "mysql_password=$pw" >> /home/mysql_access.txt
   - mysqladmin reload
 
-  # Create database
+  # Create database for wordpress
   - sudo mysql -e "CREATE DATABASE wordpress;"
 
   # Install WordPress CLI
@@ -23,7 +23,7 @@ runcmd:
   - sudo chmod +x wp-cli.phar
   - sudo mv wp-cli.phar /usr/local/bin/wp
 
-  # Set up WordPress
+  # Set up WordPress -Database on the same server
   - cd /var/www/
   - sudo chown -R www-data:www-data html
   - sudo chmod 755 html
