@@ -40,3 +40,6 @@ runcmd:
   - sudo echo -e "<Directory /var/www/html>\n    AllowOverride All\n</Directory>" >> /etc/apache2/sites-enabled/allow-htaccess.conf
   - sudo a2enmod rewrite
   - sudo service apache2 restart
+
+  # Neustart
+  - sudo reboot now
