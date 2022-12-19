@@ -57,7 +57,7 @@ CC BY-NC 4.0 licence - https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
 
 ## Autor
-* Emre Acar `EmreAcarGBS`, zuständig für readme.md und teile der Dokumentation
-* Kilian Maag `kilianedu`, zuständig für Dokumentation und teile der Skripts
-* Giosue Masiello `GBSSGMG`, zuständig für Skripts
+* Emre Acar [`EmreAcarGBS`](https://github.com/EmreAcarGBS), zuständig für readme.md und teile der Dokumentation
+* Kilian Maag [`kilianedu`](https://github.com/kilianedu), zuständig für Dokumentation und teile der Skripts
+* Giosue Masiello [`GBSSGMG`](https://github.com/GBSSGMG), zuständig für Skripts
 
