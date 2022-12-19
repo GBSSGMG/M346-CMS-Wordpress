@@ -52,7 +52,7 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 ## Lizenz
 
-CC BY-NC 4.0 licence - https://creativecommons.org/licenses/by-nc/4.0/legalcode
+CC BY-NC 4.0 licence - https://creativecommons.org/licenses/by-nc/4.0/
 
 
 
