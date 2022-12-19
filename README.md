@@ -29,7 +29,7 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 
 #### 1. Clone Git 
-&nbsp;Die Daten müssen auf die Windows Maschine runter kopiert werden ...
+&emsp;Die Daten müssen auf die Windows Maschine runter kopiert werden ...
 
 
 ## Befehle
