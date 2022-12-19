@@ -28,7 +28,7 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 ## Schnellanleitung
 
 
-#### 1. Clone Git 
+1. Clone Git 
 ```
 Die Daten müssen auf die Windows Maschine runter kopiert werden ...
 ```
