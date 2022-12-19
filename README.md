@@ -5,26 +5,70 @@
 [![Commit][commit-shield]][commit-url]
 
 # M346-CMS-Wordpress
+
+---
+
 Projektarbeit von G. Masiello, E. Acar, K. Maag unter der Aufsicht von O. Lux
 
+
 ## Inhaltsverzeichnis
-1. Vorwort 
-2. Installationsanleitung
-3. Cloud-Init
-4. Shell-Script
-5. Quellenverzeichnis 
 
-### Vorwort
-Dies ist eine Schulprojektarbeit von G. Masiello, E. Acar, K. Maag unter der Aufsicht von O. Lux.
-Falls dies in einer Produktiven umgebung genutzt werden sollte, müssen Standard Passwörter angepasst werden.
+---
 
-### Installationsanleitung
+1. [Beschreibung](#beschreibung)
+2. [Schnellanleitung](#schnellanleitung)
+3. [Befehle](#befehle)
+4. [Build](#build)
+5. [Lizenz](#lizenz)
+6. [Autor](#autor) 
 
-### Cloud-Init
-Kommentar zu Cloud-Init File
 
-### Shell-Script
-Kommentar zu Shell-Script
+## Beschreibung
 
-### Quellenverzeichnis
-- https://github.com/AndresCdo/lan-speed
+---
+
+In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Automatisierung für das Aufsetzten von Wordpress auf AWS-cli erstellt. Die funktionsweise und reihenfolge der Skripts wird in der [Schnellanleitung](#schnellanleitung) erklärt.
+
+
+
+## Schnellanleitung
+
+---
+
+### 1. Clone Git 
+Die Daten müssen auf die Windows Maschine runter kopiert werden ...
+
+## Befehle
+
+---
+
+
+
+## Build
+
+---
+
+**cloud-init.sh** und **wordpressonaws.sh** werden beide über eine Shell im Linux gestartet, daher sind die Vorraussetzungen:
+
+* für das ausführen der Skripts : Ubunto Distrubution ...
+
+* ....
+
+
+
+## Lizenz
+
+---
+
+CC BY-NC 4.0 licence - https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+
+
+## Autor
+
+---
+
+* Emre Acar `EmreAcarGBS`, zuständig für readme.md und teile der Dokumentation
+* Kilian Maag `kilianedu`, zuständig für Dokumentation und teile der Skripts
+* Giosue Masiello `GBSSGMG`, zuständig für Skripts
+
