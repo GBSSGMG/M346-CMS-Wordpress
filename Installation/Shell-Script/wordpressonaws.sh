@@ -56,6 +56,10 @@ sleep 2
 
 aws ec2 authorize-security-group-ingress --group-name wpdb-sec-group --protocol tcp --port 3306 --cidr $wsprip/20 > /dev/null
 
+scp -i ~/.ssh/autowordpress.pem ~/M346-CMS-Wordpress/Installation/Configs/50-server.cnf ubuntu@$dbpuip:/etc/mysql/mariadb.conf.d/50-server.cnf
+
+ssh -i ~/.ssh/autowordpress.pem ubuntu@$dbpuip systemctl restart mariadb
+
 echo "To configure your Wordpress go to $wspuip"
 echo "Database name = wordpress"
 echo "Username = root"
