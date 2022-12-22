@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# AWS Preparation: key, groups, rules
 aws ec2 create-key-pair --key-name autowordpress --key-type rsa --query 'KeyMaterial' --output text > ~/.ssh/autowordpress.pem
 
 aws ec2 create-security-group --group-name wp-sec-group --description "EC2-AUTO-CMS" > /dev/null
@@ -21,9 +20,9 @@ sleep 600
 # Fetching Public IP-address
 aws ec2 describe-instances --filters 'Name=tag:Name,Values=Wordpress' --query 'Reservations[*].Instances[*].PublicIpAddress' --output text > ~/wp-secret/puip.txt
 
-puip=$(cat ~/wp-secret/puip.txt)
-
 mkdir ~/wp-secret
+
+puip=$(cat ~/wp-secret/puip.txt)
 
 chmod 600 ~/.ssh/autowordpress.pem
 
