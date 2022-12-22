@@ -30,16 +30,13 @@ runcmd:
   - cd html
   - sudo rm index.html
   - sudo -u www-data wp core download
-  - sudo -u www-data wp core config --dbname='wordpress' --dbuser='root' --dbpass=”$pw” --dbhost='localhost' --dbprefix='wp_'
+  - sudo -u www-data wp core config
   - sudo chmod -R 755 /var/www/html/wp-content
 
   # Install WordPress
-  - sudo -u www-data wp core install --url='http://your-wordpress-website.com' --title='My WordPress Website' --admin_user='admin' --admin_password='secure' --admin_email='admin@example.com'
+  - sudo -u www-data wp core install
 
   # Allow .htaccess files
   - sudo echo -e "<Directory /var/www/html>\n    AllowOverride All\n</Directory>" >> /etc/apache2/sites-enabled/allow-htaccess.conf
   - sudo a2enmod rewrite
   - sudo service apache2 restart
-
-  # Neustart
-  - sudo reboot now
