@@ -32,15 +32,16 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 
 
+
 <br>
 
 ## Build
 
 ***Vorraussetzungen:***
 
-Betriebssystem: Ubuntu - Stable release **20.04.1** LTS Focal Fossa 
+&emsp;Betriebssystem: Ubuntu - Stable release **20.04.1** LTS Focal Fossa 
 
-Datenbank: MariaDB Server - Stable release **10.10.2** github.com/MariaDB/server
+&emsp;Datenbank: MariaDB Server - Stable release **10.10.2** github.com/MariaDB/server
 
 
 
