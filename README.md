@@ -1,9 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Commit][commit-shield]][commit-url]
-
 # M346-CMS-Wordpress
 
 Projektarbeit von G. Masiello, E. Acar, K. Maag unter der Aufsicht von O. Lux
@@ -30,7 +24,9 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 #### 1. Clone Git 
 
-&emsp;Die Daten müssen auf die Windows Maschine runter kopiert werden ...
+&emsp;Die Daten müssen auf die Windows Maschine runter kopiert werden
+
+
 
 
 ## Befehle
@@ -41,11 +37,13 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 ## Build
 
-**cloud-init.sh** und **wordpressonaws.sh** werden beide über eine Shell im Linux gestartet, daher sind die Vorraussetzungen:
+***Vorraussetzungen:***
+Betriebssystem: Ubuntu - Stable release 20.04.1 LTS Focal Fossa 
 
-* für das ausführen der Skripts : Ubunto Distrubution ...
+Datenbank: MariaDB Server - Stable release **10.10.2** github.com/MariaDB/server
 
-* ....
+
+
 
 
 
