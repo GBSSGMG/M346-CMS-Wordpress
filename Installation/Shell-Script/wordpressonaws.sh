@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# AWS Preparation: key, group, connection rules
 aws ec2 create-key-pair --key-name autowordpress --key-type rsa --query 'KeyMaterial' --output text > ~/.ssh/autowordpress.pem
 
 aws ec2 create-security-group --group-name wp-sec-group --description "EC2-AUTO-CMS" > /dev/null
