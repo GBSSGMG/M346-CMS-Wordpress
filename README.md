@@ -39,6 +39,7 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 ***Vorraussetzungen:***
 
 Betriebssystem: Ubuntu - Stable release **20.04.1** LTS Focal Fossa 
+
 Datenbank: MariaDB Server - Stable release **10.10.2** github.com/MariaDB/server
 
 
