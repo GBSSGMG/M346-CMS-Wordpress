@@ -18,10 +18,10 @@ echo "All important details for the configuration will be displayed"
 
 sleep 600
 
+mkdir ~/wp-secret
+
 # Fetching Public IP-address
 aws ec2 describe-instances --filters 'Name=tag:Name,Values=Wordpress' --query 'Reservations[*].Instances[*].PublicIpAddress' --output text > ~/wp-secret/puip.txt
-
-mkdir ~/wp-secret
 
 puip=$(cat ~/wp-secret/puip.txt)
 
@@ -38,7 +38,7 @@ sqlpassword=$(cat ~/wp-secret/password.txt)
 echo "To configure your Wordpress go to $puip"
 echo "Database name = wordpress"
 echo "Username = root"
-echo "Password is $sqlpassword"
+echo "$sqlpassword"
 echo "Database Host = hostname"
 
 echo "Resolving Webserver's Public IP..."
