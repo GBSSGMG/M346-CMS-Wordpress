@@ -1,21 +1,19 @@
 #cloud-config
+# Update the packages
 package_update: true
 package_upgrade: true
+# Get relevant packages
 packages:
   - software-properties-common
   - wget
   - curl
   - apache2
+# Run important commands - Add repository & install php, sql client
 runcmd:
   - curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
   - sudo apt-get install php8.1 php8.1-cli php8.1-common php8.1-curl php8.1-gd php8.1-intl php8.1-mbstring php8.1-mysql php8.1-opcache php8.1-readline php8.1-xml php8.1-xsl php8.1-zip php8.1-bz2 libapache2-mod-php8.1 -y
   - service apache2 restart
-  - apt install mariadb-server mariadb-client -y
-  - pw=$(openssl rand -base64 18); mysqladmin -u root -h localhost password "$pw"; echo "mysql_password=$pw" >> /home/mysql_access.txt
-  - mysqladmin reload
-
-  # Create database for wordpress
-  - sudo mysql -e "CREATE DATABASE wordpress;"
+  - apt install mariadb-client -y
 
   # Install WordPress CLI
   - cd ~ 
@@ -23,23 +21,20 @@ runcmd:
   - sudo chmod +x wp-cli.phar
   - sudo mv wp-cli.phar /usr/local/bin/wp
 
-  # Set up WordPress -Database on the same server
+  # Prep-up Wordpress
   - cd /var/www/
   - sudo chown -R www-data:www-data html
   - sudo chmod 755 html
   - cd html
   - sudo rm index.html
   - sudo -u www-data wp core download
-  - sudo -u www-data wp core config --dbname='wordpress' --dbuser='root' --dbpass=”$pw” --dbhost='localhost' --dbprefix='wp_'
+  - sudo -u www-data wp core config
   - sudo chmod -R 755 /var/www/html/wp-content
 
   # Install WordPress
-  - sudo -u www-data wp core install --url='http://your-wordpress-website.com' --title='My WordPress Website' --admin_user='admin' --admin_password='secure' --admin_email='admin@example.com'
+  - sudo -u www-data wp core install
 
   # Allow .htaccess files
   - sudo echo -e "<Directory /var/www/html>\n    AllowOverride All\n</Directory>" >> /etc/apache2/sites-enabled/allow-htaccess.conf
   - sudo a2enmod rewrite
   - sudo service apache2 restart
-
-  # Neustart
-  - sudo reboot now
