@@ -4,6 +4,7 @@
 
 
 <br>
+
 ## Inhaltsverzeichnis
 
 1. [Tests](#Tests)
@@ -15,6 +16,7 @@
 
 
 <br>
+
 ## Tests
 
 Screenshot nach ausführen von beiden Skripts:
@@ -24,6 +26,7 @@ Screenshot zur Überprüfung von der Passwort Richtlinie
 [Image](![image](https://user-images.githubusercontent.com/118974339/209405292-5085219f-adf6-4012-8cf0-92621baa6530.png)
 
 <br>
+
 ## Webserver
 
 
@@ -46,6 +49,7 @@ Die Arbeitsaufteilung war wie folgt:
 
 
 <br>
+
 ## Reflexion
 ***Emre:***
 &emsp; Mir hat die Projektarbeit gut gefallen, da ich mich vertiefter mit AWS und Github auseinandersetzten konnte. Ich bin der Meinung, 
@@ -53,6 +57,7 @@ dass AWS oder Cloud Computing im Allgemeinen in der Zukunft noch eine grosse Rol
 Ein Negativpunkt der mir einfällt, sind die fehlenden Beschreibungen zu was in die Dokumentation und readme Datei gehört. Wir hatten eine schwere Zeit herauszufinden was in die Dokumentation und/oder readme Datei gehört.
 
 <br>
+
 ***Giosue:***
 &emsp; Ich bin überwiege positiv von der Projektarbeit überrascht, ich konnte meine Kenntnisse in AWS, Github und Git verbessern.
 Nach meiner Einschätzung haben wir unsere Zeit sinnvoll und produktiv genutzt, daher bin ich auch zufrieden mit dem Endresultat.
@@ -60,11 +65,13 @@ Das Einzige, wobei ich Probleme hatte waren das Aufsetzten einer Umgebung mit zw
 Mein persönliches Feedback ist daher, dass ich mir mehr Hinweise oder Führung in diesem Bereich gewünscht hätte. 
 
 <br>
+
 ***Kilian:***
 &emsp; Ich bin ebenfalls positiv gestimmt. Ich habe bei den Tests bezüglich den Skripts mitgeholfen und habe einen grossen Teil der Dokumentation geschrieben.
 Am meisten hat mir Github und Markdown gefallen, obwohl es nicht zum eigentlichen Auftrag gehört. Meiner Meinung nach war der Auftrag eher schwirig, vorallem die Verbindung der zwei Instanzen zum laufen zu bringen. 
 
 <br>
+
 ## Autoren
 
 * Emre Acar [**EmreAcarGBS**](https://github.com/EmreAcarGBS), zuständig für readme.md und teile der Dokumentation
