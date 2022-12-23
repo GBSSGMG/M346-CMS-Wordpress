@@ -1,38 +1,72 @@
+# M346-CMS-Wordpress
+
+
+
+
+<br>
 ## Inhaltsverzeichnis
 
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
+1. [Tests](#Tests)
+2. [Webserver](#Webserver)
+3. [Datenbank](#Datenbank)
+4. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise und Aufgabenteilung)
+5. [Reflexion](#Reflexion)
+6. [Autoren](#autoren)
 
 
 <br>
+## Tests
 
-## Überschrift1
+Screenshot nach ausführen von beiden Skripts:
+[Image](![image](https://user-images.githubusercontent.com/118974339/209405279-ae3cdb95-9c58-4d28-85b3-c546bbf812dc.png)
 
-
-<br>
-
-## Überschrift2
-
-
-
-
+Screenshot zur Überprüfung von der Passwort Richtlinie
+[Image](![image](https://user-images.githubusercontent.com/118974339/209405292-5085219f-adf6-4012-8cf0-92621baa6530.png)
 
 <br>
+## Webserver
 
-## Überschrift3
 
 
 
 <br>
+## Datenbank
 
-## Überschrift4
 
 
 <br>
+## Arbeitsweise und Aufgabenteilung
+Wir haben die acht Lektionen genutzt, um den grössten Teil von unserem Code zu schreiben und um zu dokumentieren. Zuhause haben wir lediglich an kleineren Verbesserungen am Code gearbeitet. 
 
-## Überschrift5
+Die Arbeitsaufteilung war wie folgt:
+
+***Giosue:*** Zuständig für die Kernskripts und teilweise das Testen der Skripts.
+***Emre:*** Zuständig für die readme Datei, Recherche zur Inbetriebnahme und teilweise die Dokumentation. 
+***Kilian:*** Zuständig für die Dokumentation, das Testen der Skripts und Recherche der Inbetriebnahme
 
 
+<br>
+## Reflexion
+***Emre:***
+&emsp; Mir hat die Projektarbeit gut gefallen, da ich mich vertiefter mit AWS und Github auseinandersetzten konnte. Ich bin der Meinung, 
+dass AWS oder Cloud Computing im Allgemeinen in der Zukunft noch eine grosse Rolle spielen wird und bin daher froh darüber schonmal einen kleinen Einblick in die Materie bekommen zu haben.
+Ein Negativpunkt der mir einfällt, sind die fehlenden Beschreibungen zu was in die Dokumentation und readme Datei gehört. Wir hatten eine schwere Zeit herauszufinden was in die Dokumentation und/oder readme Datei gehört.
+
+<br>
+***Giosue:***
+&emsp; Ich bin überwiege positiv von der Projektarbeit überrascht, ich konnte meine Kenntnisse in AWS, Github und Git verbessern.
+Nach meiner Einschätzung haben wir unsere Zeit sinnvoll und produktiv genutzt, daher bin ich auch zufrieden mit dem Endresultat.
+Das Einzige, wobei ich Probleme hatte waren das Aufsetzten einer Umgebung mit zwei Instanzen, da ich diese Aufgabe zu schwer fand und es keine zielführenden Anleitungen im Internet gab. 
+Mein persönliches Feedback ist daher, dass ich mir mehr Hinweise oder Führung in diesem Bereich gewünscht hätte. 
+
+<br>
+***Kilian:***
+&emsp; Ich bin ebenfalls positiv gestimmt. Ich habe bei den Tests bezüglich den Skripts mitgeholfen und habe einen grossen Teil der Dokumentation geschrieben.
+Am meisten hat mir Github und Markdown gefallen, obwohl es nicht zum eigentlichen Auftrag gehört. Meiner Meinung nach war der Auftrag eher schwirig, vorallem die Verbindung der zwei Instanzen zum laufen zu bringen. 
+
+<br>
+## Autoren
+
+* Emre Acar [**EmreAcarGBS**](https://github.com/EmreAcarGBS), zuständig für readme.md und teile der Dokumentation
+* Giosue Masiello [**GBSSGMG**](https://github.com/GBSSGMG), zuständig für Skripts
+* Kilian Maag [**kilianedu**](https://github.com/kilianedu), zuständig für Dokumentation und teile der Skripts
