@@ -45,9 +45,9 @@ Wir haben die acht Lektionen genutzt, um den grössten Teil von unserem Code zu 
 
 Die Arbeitsaufteilung war wie folgt:
 
-***Giosue:*** Zuständig für die Kernskripts und teilweise das Testen der Skripts.
-***Emre:*** Zuständig für die readme Datei, Recherche zur Inbetriebnahme und teilweise die Dokumentation. 
-***Kilian:*** Zuständig für die Dokumentation, das Testen der Skripts und Recherche der Inbetriebnahme
+***Giosue:*** Zuständig für die Kernskripts und teilweise das Testen der Skripts. <br>
+***Emre:*** Zuständig für die readme Datei, Recherche zur Inbetriebnahme und teilweise die Dokumentation. <br> 
+***Kilian:*** Zuständig für die Dokumentation, das Testen der Skripts und Recherche der Inbetriebnahme. <br>
 
 
 <br>
