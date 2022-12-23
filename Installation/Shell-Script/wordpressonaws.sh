@@ -28,7 +28,11 @@ aws ec2 describe-instances --filters 'Name=tag:Name,Values=Wordpress-DB' --query
 
 dbpuip=$(cat ~/wp-secret/dbpuip.txt)
 
-ssh -i ~/.ssh/autowordpress.pem ubuntu@$dbpuip cat /home/mysql_access.txt > ~/wp-secret/password.txt
+ssh -i ~/.ssh/autowordpress.pem ubuntu@$dbpuip cat /home/mysql_access.txt > ~/wp-secret/root_password.txt
+
+ssh -i ~/.ssh/autowordpress.pem ubuntu@$dbpuip cat /home/wp-admin_access.txt > ~/wp-secret/wp-admin_password.txt
+
+wpadmin=$(cat ~/wp-secret/wp-admin_password.txt)
 
 aws ec2 run-instances --image-id ami-08c40ec9ead489470 --count 1 --instance-type t2.micro --key-name autowordpress --security-groups wpws-sec-group --iam-instance-profil Name=LabInstanceProfile --user-data file://~/M346-CMS-Wordpress/Installation/Cloud-Init/cloud-configws.yml --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=Wordpress-WS}]' > /dev/null
 
@@ -56,12 +60,11 @@ sleep 2
 
 aws ec2 authorize-security-group-ingress --group-name wpdb-sec-group --protocol tcp --port 3306 --cidr 0.0.0.0/0 > /dev/null
 
-sleep 60
-
 echo "To configure your Wordpress go to $wspuip"
 echo "Database name = wordpress"
-echo "Username = root"
-echo "Password is stored under ~/wp-secret/password.txt"
+echo "Username = wp-admin"
+echo "$wpadmin"
+echo "Local SQL Root password is stored here: ~/wp-secret/root_password.txt"
 echo "Database Host = $dbprip"
 
 echo "Resolving Webserver's Public IP..."
