@@ -8,7 +8,7 @@
 ## Inhaltsverzeichnis
 
 1. [Tests](#Tests)
-2. [Webserver](#Webserver-&-Datenbank)
+2. [Webserver & Datenbank](#Webserver-und-Datenbank)
 3. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise-und-Aufgabenteilung)
 4. [Reflexion](#Reflexion)
 5. [Anmerkung](#Anmerkung)
@@ -27,7 +27,7 @@ Screenshot zur Überprüfung von der Passwort Richtlinie
 
 <br>
 
-## Webserver & Datenbank
+## Webserver und Datenbank
 Die Vorgehensweise der Skripts sind in den Skripts selbst kommentiert.
 
 
