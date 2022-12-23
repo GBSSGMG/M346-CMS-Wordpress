@@ -14,7 +14,7 @@ runcmd:
 
 # Create database for Wordpress
 - sudo mysql -e "CREATE DATABASE wordpress;"
-- pw1=$(openssl rand -base64 18); sudo mysql -e "CREATE USER 'wp-admin'@'%' IDENTIFIED BY '$pw1'; GRANT ALL PRIVILEGES ON wordpress.* TO 'root'@'%' WITH GRANT OPTION;"; echo "Password=$pw" >> /home/wp-admin_access.txt
+- pw1=$(openssl rand -base64 12); sudo mysql -e "CREATE USER 'wp-admin'@'%' IDENTIFIED BY '$pw1'; GRANT ALL PRIVILEGES ON wordpress.* TO 'root'@'%' WITH GRANT OPTION;"; echo "Password=$pw" >> /home/wp-admin_access.txt
 - mysqladmin reload
 
 # Bind auf 0.0.0.0
