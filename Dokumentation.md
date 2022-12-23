@@ -43,7 +43,7 @@ Screenshot zur Überprüfung von der Passwort Richtlinie
 ## Arbeitsweise und Aufgabenteilung
 Wir haben die acht Lektionen genutzt, um den grössten Teil von unserem Code zu schreiben und um zu dokumentieren. Zuhause haben wir lediglich an kleineren Verbesserungen am Code gearbeitet. 
 
-Die Arbeitsaufteilung war wie folgt:
+Die Aufgabenteilung war wie folgt:
 
 ***Giosue:*** Zuständig für die Kernskripts und teilweise das Testen der Skripts. <br>
 ***Emre:*** Zuständig für die readme Datei, Recherche zur Inbetriebnahme und teilweise die Dokumentation. <br> 
