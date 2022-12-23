@@ -20,10 +20,10 @@
 ## Tests
 
 Screenshot nach ausführen von beiden Skripts:
-[Image](![image](https://user-images.githubusercontent.com/118974339/209405279-ae3cdb95-9c58-4d28-85b3-c546bbf812dc.png)
+(![image](https://user-images.githubusercontent.com/118974339/209405279-ae3cdb95-9c58-4d28-85b3-c546bbf812dc.png)
 
 Screenshot zur Überprüfung von der Passwort Richtlinie
-[Image](![image](https://user-images.githubusercontent.com/118974339/209405292-5085219f-adf6-4012-8cf0-92621baa6530.png)
+(![image](https://user-images.githubusercontent.com/118974339/209405292-5085219f-adf6-4012-8cf0-92621baa6530.png)
 
 <br>
 
