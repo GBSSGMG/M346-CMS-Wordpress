@@ -8,12 +8,11 @@
 ## Inhaltsverzeichnis
 
 1. [Tests](#Tests)
-2. [Webserver](#Webserver)
-3. [Datenbank](#Datenbank)
-4. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise-und-Aufgabenteilung)
-5. [Reflexion](#Reflexion)
-6. [Anmerkung](#Anmerkung)
-7. [Autoren](#autoren)
+2. [Webserver](#Webserver-&-Datenbank)
+3. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise-und-Aufgabenteilung)
+4. [Reflexion](#Reflexion)
+5. [Anmerkung](#Anmerkung)
+6. [Autoren](#autoren)
 
 
 <br>
