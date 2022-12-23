@@ -12,7 +12,8 @@
 3. [Datenbank](#Datenbank)
 4. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise-und-Aufgabenteilung)
 5. [Reflexion](#Reflexion)
-6. [Autoren](#autoren)
+6. [Anmerkung](#Anmerkung)
+7. [Autoren](#autoren)
 
 
 <br>
@@ -64,6 +65,13 @@ Mein persönliches Feedback ist daher, dass ich mir mehr Hinweise oder Führung 
 ***Kilian:***
 &emsp; Ich bin ebenfalls positiv gestimmt. Ich habe bei den Tests bezüglich den Skripts mitgeholfen und habe einen grossen Teil der Dokumentation geschrieben.
 Am meisten hat mir Github und Markdown gefallen, obwohl es nicht zum eigentlichen Auftrag gehört. Meiner Meinung nach war der Auftrag eher schwirig, vorallem die Verbindung der zwei Instanzen zum laufen zu bringen. 
+
+<br>
+
+## Anmerkung
+
+Wir haben einen [***zweiten branch***](https://github.com/GBSSGMG/M346-CMS-Wordpress/tree/2-instance-concept-work-in-progress) erstellt um darstellen zu können, was wir alles angeschaut und versucht haben.
+
 
 <br>
 
