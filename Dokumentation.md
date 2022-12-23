@@ -10,7 +10,7 @@
 1. [Tests](#Tests)
 2. [Webserver](#Webserver)
 3. [Datenbank](#Datenbank)
-4. [Arbeitsweise_und_Aufgabenteilung](#Arbeitsweise_und_Aufgabenteilung)
+4. [Arbeitsweise und Aufgabenteilung](#Arbeitsweise-und-Aufgabenteilung)
 5. [Reflexion](#Reflexion)
 6. [Autoren](#autoren)
 
