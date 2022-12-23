@@ -28,7 +28,7 @@ Screenshot zur Überprüfung von der Passwort Richtlinie
 <br>
 
 ## Webserver & Datenbank
-Die vorgehensweise der Skripts sind in den Skripts selbst kommentiert.
+Die Vorgehensweise der Skripts sind in den Skripts selbst kommentiert.
 
 
 <br>
