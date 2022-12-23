@@ -29,8 +29,8 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 ***Vorraussetzungen:***
 
-&emsp;Betriebssystem: Ubuntu - Stable release **20.04.1** LTS https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release <br>
-&emsp;Datenbank: MariaDB Server - Stable release **10.10.2** https://github.com/MariaDB/server
+Betriebssystem: Ubuntu **20.04.1** LTS https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release <br>
+Datenbank: MariaDB Server - Stable release **10.10.2** https://github.com/MariaDB/server
 
 
 <br>
