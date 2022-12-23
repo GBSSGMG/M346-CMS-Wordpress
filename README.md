@@ -16,12 +16,17 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 
 ## Schnellanleitung
 
+**Commands müssen in folgender Reihenfolge ausgeführt werden** 
 
-#### 1. Clone Git 
+#### 1. git clone
+git clone git@github.com:GBSSGMG/M346-CMS-Wordpress.git
 
-&emsp;Die Daten müssen auf die Windows Maschine runter kopiert werden
 
+#### 2. Berechtigungen vergeben
+chmod +x M346-CMS-Wordpress/Installation/Shell-Script/wordpressonaws.sh (Skript ausführbar machen)
 
+#### 3. Installationsskript ausführen
+./M346-CMS-Wordpress/Installation/Shell-Script/wordpressonaws.sh (Skript ausführen, 15 min)
 
 <br>
 
