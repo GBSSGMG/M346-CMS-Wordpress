@@ -7,10 +7,9 @@ In userer Projektarbeit M346-CMS-Wordpress, haben wir via Shell-skripts eine Aut
 ## Inhaltsverzeichnis
 
 1. [Schnellanleitung](#schnellanleitung)
-2. [Befehle](#befehle)
-3. [Build](#build)
-4. [Lizenz](#lizenz)
-5. [Autoren](#autoren) 
+2. [Build](#build)
+3. [Lizenz](#lizenz)
+4. [Autoren](#autoren) 
 
 <br>
 
