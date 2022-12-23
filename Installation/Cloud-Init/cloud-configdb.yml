@@ -9,8 +9,12 @@ packages:
 # Run important commands - Create a random password and a SQLRoot user & install php, sql server+client
 runcmd:
 - apt install mariadb-server mariadb-client -y
-- pw=$(openssl rand -base64 18); mysqladmin -u root -h localhost password "$pw"; echo "mysql_password=$pw" >> /home/mysql_access.txt
+- pw=$(openssl rand -base64 18); mysqladmin -u root -h % password "$pw"; echo "mysql_password=$pw" >> /home/mysql_access.txt
 - mysqladmin reload
 
 # Create database for Wordpress
 - sudo mysql -e "CREATE DATABASE wordpress;"
+
+# Bind auf 0.0.0.0
+- sudo rm /etc/mysql/mariadb.conf.d/50-server.cnf
+- sudo wget -P /etc/mysql/mariadb.conf.d/ https://raw.githubusercontent.com/GBSSGMG/M346-CMS-Wordpress/main/Installation/Configs/50-server.cnf -O50-server.cnf
