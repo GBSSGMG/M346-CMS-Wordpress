@@ -33,11 +33,13 @@ Screenshot zur Überprüfung von der Passwort Richtlinie
 
 
 <br>
+
 ## Datenbank
 
 
 
 <br>
+
 ## Arbeitsweise und Aufgabenteilung
 Wir haben die acht Lektionen genutzt, um den grössten Teil von unserem Code zu schreiben und um zu dokumentieren. Zuhause haben wir lediglich an kleineren Verbesserungen am Code gearbeitet. 
 
